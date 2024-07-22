@@ -1,27 +1,55 @@
-# AngularEcommerce
+# Full Stack: Angular e Spring Boot
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.7.
+## Visão Geral
 
-## Development server
+Este repositório contém o código fonte e os recursos utilizados no desenvolvimento de uma aplicação full stack utilizando Angular e Spring Boot. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologias Utilizadas
 
-## Code scaffolding
+- **Angular**: Framework de desenvolvimento para construção de aplicações web dinâmicas.
+- **Spring Boot**: Facilita a configuração e o desenvolvimento de aplicações Spring.
+- **Spring MVC**: Framework web baseado em modelo MVC para criação de aplicações web.
+- **Spring Data JPA**: Facilita o acesso a dados relacionais em aplicações baseadas em Spring.
+- **Hibernate**: Framework de mapeamento objeto-relacional para Java.
+- **Thymeleaf**: Motor de template Java para aplicações web.
+- **Spring Security**: Framework para segurança em aplicações Spring.
+- **REST APIs**: Criação e consumo de APIs RESTful.
+- **MySQL**: Sistema de gerenciamento de banco de dados relacional.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Estrutura do Projeto
 
-## Build
+O projeto está estruturado da seguinte forma:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **`/angular-ecommerce`:** Contém o código fonte da aplicação Angular.
+- **`/spring-boot-backend`:** Contém o código fonte da aplicação Spring Boot.
+- **`/docs`:** Documentação adicional, incluindo especificações OpenAPI e arquivos Swagger.
 
-## Running unit tests
+## Configuração do Ambiente de Desenvolvimento
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Servidor de Desenvolvimento
 
-## Running end-to-end tests
+Execute `ng serve` para iniciar o servidor de desenvolvimento. Navegue para `http://localhost:4200/`. A aplicação será recarregada automaticamente se você alterar qualquer um dos arquivos fonte.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Criação de Código
 
-## Further help
+Execute `ng generate component nome-componente` para gerar um novo componente. Você também pode usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Build
+
+Execute `ng build` para construir o projeto. Os artefatos de build serão armazenados no diretório `dist/`.
+
+### Executando Testes Unitários
+
+Execute `ng test` para executar os testes unitários via [Karma](https://karma-runner.github.io).
+
+### Executando Testes End-to-End
+
+Execute `ng e2e` para executar os testes end-to-end via uma plataforma de sua escolha. Para usar este comando, você precisa primeiro adicionar um pacote que implemente capacidades de teste end-to-end.
+
+### Ajuda Adicional
+
+Para obter mais ajuda sobre a Angular CLI, use `ng help` ou consulte a [Visão Geral e Referência de Comandos da Angular CLI](https://angular.io/cli).
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
